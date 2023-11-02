@@ -1,26 +1,22 @@
-import { Injector, Logger, webpack } from "replugged";
+import { Logger } from "replugged";
+import { toast } from "replugged/common";
+const PluginLogger = Logger.plugin("PluginTemplate");
 
-const inject = new Injector();
-const logger = Logger.plugin("PluginTemplate");
-
-export async function start(): Promise<void> {
-  const typingMod = await webpack.waitForModule<{
-    startTyping: (channelId: string) => void;
-  }>(webpack.filters.byProps("startTyping"));
-  const getChannelMod = await webpack.waitForModule<{
-    getChannel: (id: string) => {
-      name: string;
-    };
-  }>(webpack.filters.byProps("getChannel"));
-
-  if (typingMod && getChannelMod) {
-    inject.instead(typingMod, "startTyping", ([channel]) => {
-      const channelObj = getChannelMod.getChannel(channel);
-      logger.log(`Typing prevented! Channel: #${channelObj?.name ?? "unknown"} (${channel}).`);
-    });
-  }
+export function start(): void {
+  const stylesheets = document.querySelectorAll(
+    'link[rel="stylesheet"][href]:not([href^="replugged://"])',
+  );
+  stylesheets.forEach(function (existingLink: HTMLLinkElement) {
+    const parent = existingLink.parentNode;
+    const newLink = document.createElement("link");
+    newLink.href = existingLink.href;
+    newLink.rel = "stylesheet";
+    parent.replaceChild(newLink, existingLink);
+  });
+  toast.toast("baby girl don't cri, you wouldn't crash now.");
+  PluginLogger.error("There you are mama. Don't worry its fine.");
 }
 
 export function stop(): void {
-  inject.uninjectAll();
+  PluginLogger.error("I want mama. I wanna go back to my mama.");
 }

@@ -1,20 +1,20 @@
 {
-  "id": "dev.replugged.PluginTemplate",
-  "name": "Plugin Template",
-  "description": "A plugin template",
+  "id": "dev.replugged.DevtoolsBandage",
+  "name": "DevtoolsBandage",
+  "description": "baby gorl dont cry it will be fine",
+  "image": "https://i.imgur.com/HC1lDPt.gif",
+  "source": "https://github.com/Tharki-God/DevtoolsBandage",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "Ahlawat",
+    "discordID": "1025214794766221384",
+    "github": "Tharki-God"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/plugin-template"
+    "id": "Tharki-God/DevtoolsBandage"
   },
   "license": "MIT",
   "type": "replugged-plugin",
-  "renderer": "src/index.ts",
-  "source": "https://github.com/replugged-org/plugin-template",
-  "image": ["https://i.imgur.com/14CNs3a.png?CHANGE-THIS-URL"]
+  "renderer": "src/index.ts"
 }
