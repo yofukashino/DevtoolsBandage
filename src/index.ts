@@ -16,7 +16,7 @@ export function start(): void {
     });
     toast.toast("baby girl don't cri, you wouldn't crash now.");
     PluginLogger.error("There you are mama. Don't worry its fine.");
-    fluxDispatcher.subscribe("RPC_SERVER_READY", hug);
+    fluxDispatcher.unsubscribe("RPC_SERVER_READY", hug);
   }
   fluxDispatcher.subscribe("RPC_SERVER_READY", hug);
 }
