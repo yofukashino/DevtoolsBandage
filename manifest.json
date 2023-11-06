@@ -3,16 +3,16 @@
   "name": "DevtoolsBandage",
   "description": "baby gorl dont cry it will be fine",
   "image": "https://i.imgur.com/HC1lDPt.gif",
-  "source": "https://github.com/Tharki-God/DevtoolsBandage",
+  "source": "https://github.com/TharkiDev/DevtoolsBandage",
   "author": {
     "name": "Ahlawat",
     "discordID": "1025214794766221384",
-    "github": "Tharki-God"
+    "github": "TharkiDev"
   },
   "version": "1.0.4",
   "updater": {
     "type": "github",
-    "id": "Tharki-God/DevtoolsBandage"
+    "id": "TharkiDev/DevtoolsBandage"
   },
   "license": "MIT",
   "type": "replugged-plugin",

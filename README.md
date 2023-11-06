@@ -10,12 +10,12 @@ So calm down, It will be fine baby gorl, just trust me.
 
  **Meow Meow**
 
-Direct Download Link: [dev.tharki.DevtoolsBandage.asar](https://github.com/Tharki-God/DiscordBypasses/releases/latest/download/dev.tharki.DevtoolsBandages.asar)
+Direct Download Link: [dev.tharki.DevtoolsBandage.asar](https://github.com/TharkiDev/DiscordBypasses/releases/latest/download/dev.tharki.DevtoolsBandages.asar)
 
 Install Link:
 
 
-[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=Tharki-God/DevtoolsBandage&source=github)
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=TharkiDev/DevtoolsBandage&source=github)
 
 ![image](https://i.imgur.com/HC1lDPt.gif)
 
