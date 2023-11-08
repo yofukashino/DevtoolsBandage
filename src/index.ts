@@ -1,6 +1,6 @@
 import { Logger, util } from "replugged";
 import { toast } from "replugged/common";
-const PluginLogger = Logger.plugin("PluginTemplate");
+const PluginLogger = Logger.plugin("British Boyfriend");
 
 export async function start(): Promise<void> {
   await util.waitFor('[data-list-id="guildsnav"]');
