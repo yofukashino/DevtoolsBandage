@@ -10,7 +10,7 @@ So calm down, It will be fine baby gorl, just trust me.
 
  **Meow Meow**
 
-Direct Download Link: [dev.tharki.DevtoolsBandage.asar](https://github.com/TharkiDev/DiscordBypasses/releases/latest/download/dev.tharki.DevtoolsBandages.asar)
+Direct Download Link: [dev.tharki.DevtoolsBandage.asar](https://github.com/TharkiDev/DiscordBypasses/releases/latest/download/dev.tharki.DevtoolsBandage.asar)
 
 Install Link:
 
